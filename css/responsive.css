@@ -435,7 +435,8 @@
 
 	.main-menu .navbar-collapse>.navigation>li,
 	.main-menu .navbar-collapse>.navigation>li>ul>li,
-	.main-menu .navbar-collapse>.navigation>li>ul>li>ul>li {
+	.main-menu .navbar-collapse>.navigation>li>ul>li>ul>li,
+	.main-menu .navbar-collapse>.navigation>li>ul.re>ul>li {
 		border-top: 1px solid rgba(255, 255, 255, 1) !important;
 		border-bottom: none;
 		opacity: 1 !important;
@@ -455,10 +456,11 @@
 
 	.main-menu .navbar-collapse>.navigation>li>a,
 	.main-menu .navbar-collapse>.navigation>li>ul>li>a,
-	.main-menu .navbar-collapse>.navigation>li>ul>li>ul>li>a {
+	.main-menu .navbar-collapse>.navigation>li>ul>li>ul>li>a,
+	.main-menu .navbar-collapse>.navigation>li>ul.re>ul>li>a {
 		padding: 10px 10px !important;
 		line-height: 22px;
-		color: #ffffff;
+		color: #ffffff !important;
 		background: #333333;
 		text-align: left;
 	}
@@ -472,6 +474,7 @@
 	.main-menu .navbar-collapse>.navigation>li:hover>a,
 	.main-menu .navbar-collapse>.navigation>li>ul>li:hover>a,
 	.main-menu .navbar-collapse>.navigation>li>ul>li>ul>li:hover>a,
+	.main-menu .navbar-collapse>.navigation>li>ul.re>ul>li:hover>a,
 	.main-menu .navbar-collapse>.navigation>li.current>a,
 
 	.main-menu .navbar-collapse>.navigation>li.current-menu-item>a {
