@@ -5900,4 +5900,13 @@ img{
 	.page-title {
 		padding: 40px 0px 32px !important;
 	}
+
+	/* Premium responsive widescreen banner crop */
+	img[src*="mlm-n2nsystems"] {
+		width: 100% !important;
+		height: 140px !important;
+		object-fit: cover !important;
+		object-position: 80% center !important;
+		margin-top: 0px !important;
+	}
 }
